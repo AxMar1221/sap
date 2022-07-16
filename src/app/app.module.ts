@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 
 @NgModule({
@@ -11,6 +13,8 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    AboutComponent,
+    HeroesComponent,
   ],
   imports: [
     BrowserModule
