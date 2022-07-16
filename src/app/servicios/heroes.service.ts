@@ -59,8 +59,12 @@ export class HeroesService {
         console.log('Servicio listo para usar!!');
     }
 
-    getHeroes(){
-        return this.heroes
+    getHeroes():Heroe[]{
+        return this.heroes;
+    }
+
+    getHeroe( idx:any){
+      return this.heroes[idx];
     }
 }
 export interface Heroe{

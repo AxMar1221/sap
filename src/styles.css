@@ -6,6 +6,9 @@ body {
     margin-top: 35px;
 }
 
+.img-logo {
+  width: 150px;
+}
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
