@@ -17,7 +17,6 @@ export class HeroesComponent implements OnInit {
 
   ngOnInit(): void {
     this.heroes = this._heroesService.getHeroes();
-    console.log( this.heroes );
   }
 
   verHeroe( idx:number ){
