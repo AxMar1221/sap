@@ -20,8 +20,8 @@ export class HeroeCardComponent implements OnInit {
   }
 
   verHeroe( ){
-    this.heroeSeleccionado.emit( this.index )
-    // this._router.navigate( ['/heroe', this.index ] )
+    // this.heroeSeleccionado.emit( this.index )
+    this._router.navigate( ['/heroe', this.index ] )
   }
 
 }
