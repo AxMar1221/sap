@@ -2,6 +2,6 @@
 <hr>
 <div class="card-columns">
     <div class="col-md-4 animated fadeIn fats">
-        <app-heroe-card [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-card>
+        <app-heroe-card (heroeSeleccionado)="verHeroe( $event )" [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-card>
     </div>
 </div>
